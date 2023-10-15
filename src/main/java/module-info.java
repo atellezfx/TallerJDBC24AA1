@@ -6,4 +6,6 @@ module dev.atellezfx.taller {
 
     opens dev.atellezfx.taller to javafx.fxml;
     exports dev.atellezfx.taller;
+    exports dev.atellezfx.taller.sql;
+    opens dev.atellezfx.taller.sql to javafx.fxml;
 }
